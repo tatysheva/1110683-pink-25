@@ -1,12 +1,198 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
-  <body>
+<html class="page" lang="ru">
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Пинк</title>
+</head>
 
-  </body>
+<body class="page__body">
+
+  <header class="main-header">
+    <div class="container">>
+      <a class="main-header__logo logo">
+        <img src="./img/pink.svg" width="74px" height="23px" alt="Приложение «Пинк»">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="#">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Фотографии</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Конкурс</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="page-main">
+    <h1 class="visually-hidden">«Пинк» Взгляните на жизнь иначе!</h1>
+    <section class="hero">
+      <div class="container">
+        <h2 class="visually-hidden">Приложение Pink</h2>
+        <img class="hero__background-image" src="#" alt="Нью-Йоркская публичная библиотека">
+        <p class="hero__slogan">Взгляните на жизнь иначе!</p>
+        <img class="hero__main-image" src="#" alt="Смартфон в руке">
+        <a class="hero__main-link" href="#">Скачать приложение</a>
+        <ul class="hero__market-links">
+          <li class="market-links__item">
+            <a href="#" class="market-icon">
+              <img src="#" width="47px" height="56px" alt="Эпл">
+            </a>
+          </li>
+          <li class="market-links__item">
+            <a href="#" class="market-icon">
+              <img src="#" width="43px" height="47px" alt="Андроид">
+            </a>
+          </li>
+          <li class="market-links__item">
+            <a href="#" class="market-icon">
+              <img src="#" width="44px" height="41px" alt="Майкрософт">
+            </a>
+          </li>
+        </ul>
+        <p class="promo__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="container">
+        <h2 class="visually-hidden">Преимущества</h2>
+        <p class="benefits-slogan">Устали от серости мегаполиса?</p>
+        <p class="benefits-slogan">Нам есть, что вам предложить</p>
+        <ul class="benefits-list">
+          <li class="benefits-list__item">
+            <h3 class="benefits-list__title">Поднимает настроение</h3>
+            <p class="benefits-list__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально
+              в несколько кликов!</p>
+          </li>
+          <li class="benefits-list__item">
+            <h3 class="benefits-list__title">Меняет мир вокруг</h3>
+            <p class="benefits-list__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы
+              усилитьэффект</p>
+          </li>
+          <li class="benefits-list__item">
+            <h3 class="benefits-list__title">Заводит новых друзей</h3>
+            <p class="benefits-list__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и
+              заводите новых</p>
+          </li>
+        </ul>
+        <img class="benefits__image" src="#" alt="Смартфон">
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="container">
+        <h2 class="visually-hidden">Отзывы</h2>
+        <div class="reviews-content">
+          <h3 class="reviews__title">Николай Петров</h3>
+          <p class="reviews__description">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на
+            привычные
+            серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+        </div>
+        <div class="reviews__buttons carousel-buttons">
+          <button class="carousel-buttons button" type="button" name="carousel"></button>
+          <button class="carousel-buttons button" type="button" name="carousel"></button>
+          <button class="carousel-buttons button" type="button" name="carousel"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="price-tiers">
+      <div class="container">
+        <h2 class="visually-hidden">Тарифные планы</h2>
+        <div class="price-tiers__header">
+          <h3 class="price-tiers__title">Стандарт</h3>
+          <p class="price-tiers__subtitle">3,99 USD</p>
+          <p class="price-tiers__description">Хит</p>
+        </div>
+        <div class="price-tiers__item">
+          <p class="price-tiers__item-title">Розовый фильтр</p>
+          <img class="price-tiers__item-image" src="#" alt="Галочка">
+        </div>
+        <div class="price-tiers__item">
+          <p class="price-tiers__item-title">Смайлики</p>
+          <img class="price-tiers__item-image" src="#" alt="Галочка">
+        </div>
+        <div class="price-tiers__item">
+          <p class="price-tiers__item-title">Комментарии</p>
+          <img class="price-tiers__item-image" src="#" alt="Крест">
+        </div>
+        <div class="price-tiers__buttons carousel-buttons">
+          <button class="price-tiers-buttons button" type="button" name="carousel"></button>
+          <button class="price-tiers-buttons button" type="button" name="carousel"></button>
+          <button class="price-tiers-buttons button" type="button" name="carousel"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2 class="visually-hidden">Наши контакты</h2>
+      <div class="container">
+        <p class="contact__slogan slogan">Остались вопросы? Свяжитесь с нами!</p>
+        <div class="contact-list contact-list">
+          <div class="contact-list__item">
+            <p class="contact__title">Звоните:</p>
+            <p class="contact__subtitle">+7(812)555-66-66</p>
+          </div>
+          <div class="contact-list__item">
+            <p class="contact__title">Пишите:</p>
+            <p class="contact__subtitle">mail@htmlacademy.ru</p>
+          </div>
+          <div class="contact-list__item">
+            <p class="contact__title">Приезжайте в гости:</p>
+            <p class="contact__subtitle">ул. Большая Конюшенная, 19/8</dd>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="map">
+      <img class="map__image" src="#" alt="Карта">
+      <img class="map__pin" src="#" alt="Указатель на карте">
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__logo">
+        <a class="footer__logo-link">
+          <img src="#" width="59px" height="40px" alt="Очки «Пинк»">
+        </a>
+        <a class="logo">
+          <img src="./img/pink.svg" width="74px" height="23px" alt="Приложение «Пинк»">
+        </a>
+      </div>
+      <ul class="footer__social-links">
+        <li class="social-links__item">
+          <a href="#" class="social-links__icon">
+            <img src="#" alt="Вконтакте" class="social-links__image">
+          </a>
+        </li>
+        <li class="social-links__item">
+          <a href="#" class="social-links__icon">
+            <img src="#" alt="Телеграм" class="social-links__image">
+          </a>
+        </li>
+        <li class="social-links__item">
+          <a href="#" class="social-links__icon">
+            <img src="#" alt="Ютьюб" class="social-links__image">
+          </a>
+        </li>
+      </ul>
+      <a class="academy__link" href="https://htmlacademy.ru/intensive/adaptive">Разработано
+        <img src="#" alt="Ютьюб" class="social-links__image">
+      </a>
+    </div>
+  </footer>
+
+</body>
+
 </html>
